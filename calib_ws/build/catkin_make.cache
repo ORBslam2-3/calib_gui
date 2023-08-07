@@ -1,2 +1,0 @@
-multi_LIDAR_calibration:ros_qt_demo
--DCATKIN_DEVEL_PREFIX=/home/wxd/calib_gui/calib_ws/devel -DCMAKE_INSTALL_PREFIX=/home/wxd/calib_gui/calib_ws/install -G Unix Makefiles

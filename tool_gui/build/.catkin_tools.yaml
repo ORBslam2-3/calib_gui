@@ -1,6 +1,0 @@
-devel_space: /home/wxd/calib_gui/tool_gui/devel
-install: false
-install_space: /home/wxd/calib_gui/tool_gui/install
-profile: default
-source_space: /home/wxd/calib_gui/tool_gui/src
-workspace: /home/wxd/calib_gui/tool_gui
