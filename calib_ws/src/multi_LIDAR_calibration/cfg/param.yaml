@@ -1,0 +1,10 @@
+%YAML:1.0
+init_transform:
+  x: 0
+  y: 0.609578
+  z: -0.824581
+  roll: 0
+  pitch: 0
+  yaw: 0
+map_match_min_num: 1200
+max_icp_fittness_score: 2

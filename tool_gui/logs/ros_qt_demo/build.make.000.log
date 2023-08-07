@@ -1,0 +1,33 @@
+[35m[1mScanning dependencies of target ros_qt_demo_autogen[0m
+[  3%] [34m[1mAutomatic MOC and UIC for target ros_qt_demo[0m
+[  3%] Built target ros_qt_demo_autogen
+[  7%] [34m[1mGenerating ui_main_window.h[0m
+[ 14%] [34m[1mGenerating qrc_image.cpp[0m
+[ 14%] [34m[1mGenerating include/ros_qt_demo/moc_qrviz.cpp[0m
+[ 21%] [34m[1mGenerating OtherDialog/AddBagSetting/moc_bagsettingdialog.cpp[0m
+[ 21%] [34m[1mGenerating CustomControl/MyPalette/moc_mypalette.cpp[0m
+[ 25%] [34m[1mGenerating OtherDialog/AddYamlSetting/moc_yamlsettingdialog.cpp[0m
+[ 28%] [34m[1mGenerating include/ros_qt_demo/moc_main_window.cpp[0m
+[ 32%] [34m[1mGenerating include/ros_qt_demo/moc_qcustomplot.cpp[0m
+[ 35%] [34m[1mGenerating include/ros_qt_demo/moc_qnode.cpp[0m
+/home/wxd/calib_gui/tool_gui/src/ros_qt_demo/include/ros_qt_demo/qrviz.hpp:0: Note: No relevant classes found. No output generated.
+[35m[1mScanning dependencies of target ros_qt_demo[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/ros_qt_demo.dir/ros_qt_demo_autogen/mocs_compilation.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/ros_qt_demo.dir/src/main.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/ros_qt_demo.dir/src/main_window.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ros_qt_demo.dir/src/qnode.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/ros_qt_demo.dir/src/qcustomplot.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/ros_qt_demo.dir/src/qrviz.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/ros_qt_demo.dir/CustomControl/MyPalette/moc_mypalette.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/ros_qt_demo.dir/qrc_image.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/ros_qt_demo.dir/OtherDialog/AddBagSetting/moc_bagsettingdialog.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/ros_qt_demo.dir/OtherDialog/AddYamlSetting/moc_yamlsettingdialog.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/ros_qt_demo.dir/include/ros_qt_demo/moc_qnode.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/ros_qt_demo.dir/include/ros_qt_demo/moc_main_window.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/ros_qt_demo.dir/include/ros_qt_demo/moc_qcustomplot.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/ros_qt_demo.dir/CustomControl/MyPalette/mypalette.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/ros_qt_demo.dir/include/ros_qt_demo/moc_qrviz.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/ros_qt_demo.dir/OtherDialog/AddYamlSetting/yamlsettingdialog.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/ros_qt_demo.dir/OtherDialog/AddBagSetting/bagsettingdialog.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/wxd/calib_gui/tool_gui/devel/lib/ros_qt_demo/ros_qt_demo[0m
+[100%] Built target ros_qt_demo

@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindowDesign</class>
+ <widget class="QMainWindow" name="MainWindowDesign">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1139</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QRosApp</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/images/icon.png</normaloff>:/images/icon.png</iconset>
+  </property>
+  <property name="locale">
+   <locale language="English" country="Australia"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>1911</width>
+      <height>951</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="RVizLayout"/>
+   </widget>
+   <widget class="QTreeWidget" name="treeWidget_layer">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>60</y>
+      <width>20</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="columnCount">
+     <number>2</number>
+    </property>
+    <attribute name="headerMinimumSectionSize">
+     <number>150</number>
+    </attribute>
+    <attribute name="headerDefaultSectionSize">
+     <number>150</number>
+    </attribute>
+    <attribute name="headerStretchLastSection">
+     <bool>false</bool>
+    </attribute>
+    <column>
+     <property name="text">
+      <string notr="true">1</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string notr="true">2</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>1300</x>
+      <y>0</y>
+      <width>620</width>
+      <height>951</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QCustomPlot" name="customPlot" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>610</width>
+       <height>431</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QListView" name="view_logging">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>450</y>
+       <width>610</width>
+       <height>501</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLineEdit" name="lineEditZ">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>980</y>
+      <width>125</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_Z">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>980</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Z：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditY">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>980</y>
+      <width>125</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_X">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>980</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>X：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_Y">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>980</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Y：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditX">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>980</y>
+      <width>125</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditqYaw">
+    <property name="geometry">
+     <rect>
+      <x>1035</x>
+      <y>980</y>
+      <width>125</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditqPitch">
+    <property name="geometry">
+     <rect>
+      <x>835</x>
+      <y>980</y>
+      <width>125</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditqRoll">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>980</y>
+      <width>125</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>980</y>
+      <width>50</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Roll  : </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>980</y>
+      <width>50</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pitch  : </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>985</x>
+      <y>980</y>
+      <width>50</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Yaw  : </string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_File">
+    <property name="title">
+     <string>&amp;App</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionAbout"/>
+    <addaction name="actionAbout_Qt"/>
+    <addaction name="separator"/>
+    <addaction name="action_Roscore"/>
+    <addaction name="action_Connect"/>
+    <addaction name="action_Quit"/>
+   </widget>
+   <widget class="QMenu" name="menuSetting">
+    <property name="title">
+     <string>Setting</string>
+    </property>
+    <addaction name="action_InitSetting"/>
+    <addaction name="action_BagSetting"/>
+   </widget>
+   <widget class="QMenu" name="menuLog">
+    <property name="title">
+     <string>Log</string>
+    </property>
+    <addaction name="action_view"/>
+   </widget>
+   <addaction name="menu_File"/>
+   <addaction name="menuSetting"/>
+   <addaction name="menuLog"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_Quit">
+   <property name="text">
+    <string>&amp;Quit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ApplicationShortcut</enum>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>&amp;About</string>
+   </property>
+  </action>
+  <action name="actionAbout_Qt">
+   <property name="text">
+    <string>About &amp;Qt</string>
+   </property>
+  </action>
+  <action name="action_Connect">
+   <property name="text">
+    <string>Connect</string>
+   </property>
+  </action>
+  <action name="action_Setting">
+   <property name="text">
+    <string>Setting</string>
+   </property>
+  </action>
+  <action name="action_Roscore">
+   <property name="text">
+    <string>Roscore</string>
+   </property>
+  </action>
+  <action name="actionLogView">
+   <property name="text">
+    <string>LogView</string>
+   </property>
+  </action>
+  <action name="action_BagSetting">
+   <property name="text">
+    <string>Bag设置</string>
+   </property>
+  </action>
+  <action name="actionCalib">
+   <property name="text">
+    <string>Calib</string>
+   </property>
+  </action>
+  <action name="action_view">
+   <property name="text">
+    <string>View</string>
+   </property>
+  </action>
+  <action name="action_InitSetting">
+   <property name="text">
+    <string>初始参数</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header>qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>action_Quit</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindowDesign</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
